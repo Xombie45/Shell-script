@@ -29,3 +29,7 @@ fi
 yum install postfix -y &>>$LOGFILES
 
 VALIDATE $? "Installation of postfix"
+
+yum install nginx -y &>>$LOGFILES
+
+VALIDATE $? "Installation of nginx"
