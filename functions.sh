@@ -11,14 +11,18 @@ G="\e[32m"
 N="\e[0m"
 
 VALIDATE(){
-if [ $1 -ne 0 ]
-then
-    echo -e "$R $2  is......FAILED $N"
-    exit 1
-else
-    echo -e "$2 $R is......SUCCESS $N"
-fi
+    if [ $1 -ne 0 ]
+    then
+        echo -e "$R $2  is......FAILED $N"
+        exit 1
+    else
+        echo -e "$R $2 is......SUCCESS $N"
+    fi
 }
+
+
+USERID=$(id -u)
+
 
 if [ $USERID -ne 0 ]
 then
