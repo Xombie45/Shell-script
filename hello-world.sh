@@ -1,4 +1,10 @@
 #!/bin/bash
-echo "HI raaa"
-echo "Namasthe ba xombie"
-echo "Thinnaara andi"
+
+1=Vishwa
+2=Xombie
+3=Laddu
+
+
+echo "$1:HI raaa"
+echo "$2:Namasthe ba xombie"
+echo "$3:Thinnaara andi"
