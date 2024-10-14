@@ -1,10 +1,10 @@
 #!/bin/bash
 
-1=Vishwa
-2=Xombie
-3=Laddu
+P1=Vishwa
+P2=Xombie
+P3=Laddu
 
 
-echo "$1:HI raaa"
-echo "$2:Namasthe ba xombie"
-echo "$3:Thinnaara andi"
+echo "$P1 :HI raaa"
+echo "$P2 :Namasthe ba xombie"
+echo "$P3 :Thinnaara andi"
