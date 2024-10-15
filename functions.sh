@@ -4,7 +4,7 @@ DATE=$(date)
 SCRIPT_NAME=$0
 LOGFILES=/tmp/$SCRIPT_NAME-$DATE.log
 
-#Colours
+#Using colours
 
 R="\e[31m"
 G="\e[32m"
