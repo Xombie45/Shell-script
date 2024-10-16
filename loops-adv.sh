@@ -11,7 +11,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-if [ USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then
     echo -e "$R ERROR :: Please run with root access $N"
     exit 1
@@ -24,6 +24,7 @@ VALIDATE(){
         exit 1
     else
         echo "Installing $2 ....... $G SUCCESS $N"
+    fi
 }
 
 for i in $@
