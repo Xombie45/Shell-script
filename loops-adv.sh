@@ -19,10 +19,10 @@ fi
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
-        echo -e "Installing $2 ....... $R FAILURE $N"
+        echo -e "$R Installing $2 ....... FAILURE $N"
         exit 1
     else
-        echo -e "Installing $2 ....... $G SUCCESS $N"
+        echo -e "$G Installing $2 ....... SUCCESS $N"
     fi
 }
 
@@ -31,10 +31,10 @@ do
     yum list installed $i &>>LOGFILE
     if [ $? -ne 0 ]
     then
-        echo -e "$i is $Y not installed $N . Lets Install it"
+        echo -e "$Y $i is not installed $N . $G Lets Install it $N"
         yum install $i -y &>>LOGFILE
         VALIDATE $? "$i"
     else
-        echo -e "$i $Y is already installed $N"
+        echo -e "$Y $i is already installed $N"
     fi
 done
