@@ -1,11 +1,10 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "../shellscript-roboshop"
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "../shellscript-roboshop"
+        }
+    ]
 }

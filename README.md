@@ -1,2 +1,2 @@
 # shell-script
-baagunna
+This repository is all about the concepts in Shell scripting.
