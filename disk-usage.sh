@@ -18,7 +18,7 @@ DISK_USAGE=$(df -hT | grep -vE 'tmpfs|Filesystem')
 DISK_USAGE_THRESHOLD=1
 message=""
 
-#IFS= means internal feild seperator is space.
+#IFS= means internal feild seperator is space .
 while IFS= read line
 do  
     # this command will give you usage in number format for comparision
