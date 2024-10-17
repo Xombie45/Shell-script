@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #anyone in your project can call this script with arguments
-# mail.sh TO_ADDRESS SUBJECT BODY TEAM_NAME ALERT_TYPE
+# mail.sh TO_ADDRESS SUBJECT BODY TEAM_NAME ALERT_TYPE 
 
 TO_ADDRESS=$1
 SUBJECT=$2

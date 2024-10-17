@@ -8,6 +8,7 @@ then
     exit 1
 fi
 
+
 yum install mysql -y
 
 if [ $? -ne 0 ]
